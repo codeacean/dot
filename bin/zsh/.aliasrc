@@ -1,0 +1,11 @@
+# aliases
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias brave="/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=brave --file-forwarding com.brave.Browser @@u  @@"
+alias zen="/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=launch-script.sh --file-forwarding app.zen_browser.zen @@u  @@"
+alias suu="sudo dnf update && sudo dnf upgrade -y"
+alias brightup="ddcutil setvcp 10 + 7"
+alias brightdown="ddcutil setvcp 10 - 7"
+alias :files='vim "$(fzf)"'
+alias gogit="bash ~/Program/gitclone/pre.sh"
+alias kick="mkdir"
